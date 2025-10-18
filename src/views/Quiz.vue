@@ -3,7 +3,7 @@
   <ProgressBar :value="progress" />
     <div class="flex items-center justify-between text-sm text-gray-600">
       <div>Q{{ store.index + 1 }} / {{ store.questions.length }}</div>
-      <div>正解：<span class="font-semibold">{{ store.score }}</span></div>
+      <!-- <div>正解：<span class="font-semibold">{{ store.score }}</span></div> -->
       </div>
       <QuestionCard :q="store.current" @select="onSelect" />
       <div class="flex items-center justify-between">
