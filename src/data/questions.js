@@ -76,5 +76,49 @@ export const questions = [
     question: '日向坂46のファンは何と呼ばれている？',
     options: ['おひたま', 'はるはるーむ', 'こにガチ', 'おひさま'],
     correctIndex: 3
-  }
+  },
+  {
+    id: 11,
+    type: 'text',
+    question: '2017年4月6日に代々木第一体育館で「欅坂46デビュー1周年記念ライブ」において締め出されたのは誰と誰？',
+    options: ['佐々木美玲と佐々木久美', '柿崎芽美と加藤史帆', '高瀬愛奈と加藤史帆', '佐々木美玲と柿崎芽美'],
+    correctIndex: 1
+  },
+  {
+    id: 12,
+    type: 'text',
+    question: 'グループ名「日向坂46」のある場所は？',
+    options: ['東京都港区赤坂', '東京都港区元麻布', '東京都港区高輪', '東京都港区三田'],
+    correctIndex: 3
+  },
+  {
+    id: 13,
+    type: 'text',
+    question: '2025年10月現在小坂菜緒がセンター務めた曲数は表題曲、その多曲合わせて何曲？',
+    options: ['24曲', '25曲', '26曲', '27曲'],
+    correctIndex: 2
+  },
+  {
+    id: 14,
+    type: 'text',
+    question: '佐々木久美がキャプテンに就任したのはいつ？',
+    options: ['2018年6月3日', '2018年6月4日', '2018年6月5日', '2018年6月6日'],
+    correctIndex: 0
+  },
+  {
+    id: 15,
+    type: 'text',
+    question: 'お願いバッハ！の作曲者は？',
+    options: ['ナスカ', '石崎光', '野村陽一郎', 'TomoLow'],
+    correctIndex: 1
+  },
+  {
+    id: 16,
+    type: 'image',
+    image: '/images/km.jpg',
+    alt: 'メンバー写真',
+    question: 'これは誰でしょう？',
+    options: ['小坂菜緒', '上村ひなの', '金村美玖', '山下葉留花'],
+    correctIndex: 2
+  },
 ]
