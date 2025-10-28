@@ -67,7 +67,7 @@ export const questions = [
     image: '/images/hinatalive.jpg',
     alt: 'ステージ写真',
     question: 'これはいつのライブ？',
-    options: ['4回目のひな誕祭1日目', 'Happy Smile Tour 2022最終日', 'HINATAZAKA46 Live Online，YES！with YOU！～“22人”の音楽隊と風変わりな仲間たち～', '3周年記念MEMORIAL LIVE ～3回目のひな誕祭～1日目'],
+    options: ['4回目のひな誕祭1日目', 'Happy Smile Tour 2022最終日', '全国おひさま化計画2021', '3周年記念MEMORIAL LIVE ～3回目のひな誕祭～1日目'],
     correctIndex: 1
   },
   {
