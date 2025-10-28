@@ -57,7 +57,7 @@ export const questions = [
   {
     id: 8,
     type: 'text',
-    question: '2025年9月8日OA日向坂で会いましょうでの運動企画で50m走において五期生で3番目に速かったのは誰？',
+    question: '2025年9月8日放送の日向坂で会いましょうでの運動企画で50m走において五期生で3番目に速かったのは誰？',
     options: ['佐藤優羽', '大田美月', '鶴崎仁香', '片山紗希'],
     correctIndex: 0
   },
@@ -119,6 +119,36 @@ export const questions = [
     alt: 'メンバー写真',
     question: 'これは誰でしょう？',
     options: ['小坂菜緒', '上村ひなの', '金村美玖', '山下葉留花'],
+    correctIndex: 2
+  },
+  {
+    id: 17,
+    type: 'text',
+    question: '2025年10月19日の上村ひなののブログのタイトルは？',
+    options: ['Haruyo is very kind.', '好きの調べ学習', 'ボンボンドロップ', 'ちぇっくめいと'],
+    correctIndex: 1
+  },
+  {
+    id: 18,
+    type: 'text',
+    question: '2025年6月2日放送の日向坂で会いましょうのぶりっ子オーディションにおいて、椅子取りゲームで最後に残ったのは誰？',
+    options: ['森本茉莉', '石塚瑶季', '片山紗希', '松尾桜'],
+    correctIndex: 0
+  },
+  {
+    id: 19,
+    type: 'image',
+    image: '/images/ishou.jpg',
+    alt: 'メンバー写真',
+    question: 'これはいつの衣装？',
+    options: ['第70回NHK紅白歌合戦', '第71回NHK紅白歌合戦', '第72回NHK紅白歌合戦', '第73回NHK紅白歌合戦'],
+    correctIndex: 3
+  },
+  {
+    id: 20,
+    type: 'text',
+    question: '2025年10月13日放送の日向坂で会いましょうの褒め褒めストラックアウトおいて、14ptの答えはどれ？',
+    options: ['真剣に取り組んでいるね', '急に家に行っても入れてくれるよね', '「やっほっす～」定着したね', '部屋キレイだね'],
     correctIndex: 2
   },
 ]

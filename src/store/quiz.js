@@ -11,7 +11,7 @@ export const useQuizStore = defineStore('quiz', {
     startedAt: null,
     finishedAt: null,
     index: 0,
-    answers: [], // { questionId, selectedIndex, isCorrect }
+    answers: [],
     questions: shuffle(rawQuestions).slice(0, 10)
   }),
   getters: {
