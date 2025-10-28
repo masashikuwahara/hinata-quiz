@@ -4,11 +4,9 @@
     <h2 class="text-lg sm:text-xl font-semibold leading-relaxed">{{ q.question }}</h2>
   </div>
 
-
   <div v-if="q.type==='image'" class="px-4 sm:px-6 pb-2">
     <img :src="q.image" :alt="q.alt || ''" class="w-full rounded-xl border object-cover"/>
   </div>
-
 
   <div class="grid gap-3 p-4 sm:p-6">
     <button
@@ -24,7 +22,6 @@
     </div>
   </div>
 </template>
-
 
 <script setup>
   const props = defineProps({ q: { type: Object, required: true } })

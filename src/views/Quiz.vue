@@ -24,7 +24,6 @@
   </section>
 </template>
 
-
 <script setup>
 import { computed, watch } from 'vue'
 import { useRouter } from 'vue-router'

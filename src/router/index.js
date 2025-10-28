@@ -3,7 +3,6 @@ import Home from '../views/Home.vue'
 import Quiz from '../views/Quiz.vue'
 import Result from '../views/Result.vue'
 
-
 const router = createRouter({
   history: createWebHistory(),
   routes: [

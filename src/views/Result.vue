@@ -39,24 +39,19 @@
   </section>
 </template>
 
-
 <script setup>
 import { computed } from 'vue'
 import { useQuizStore } from '../store/quiz'
 
-
 const store = useQuizStore()
 const primary = '#7cc7e8'
 
-
 const wrong = computed(() => store.questions.length - store.score)
-
 
 function isCorrect(i) {
   const ans = store.answers[i]
   return ans?.isCorrect
 }
-
 
 function labelAnswer(i) {
   const ans = store.answers[i]
@@ -65,11 +60,9 @@ function labelAnswer(i) {
   return q.options[ans.selectedIndex]
 }
 
-
 function labelCorrect(q) {
   return q.options[q.correctIndex]
 }
-
 
 function restart() {
   store.start()
