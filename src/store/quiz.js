@@ -4,7 +4,7 @@ import { questions as rawQuestions } from '../data/questions'
 
 export const useQuizStore = defineStore('quiz', {
   state: () => ({
-    version: '1.0.0',
+    version: '1.0.1',
     changelog: [
       { date: '2025-10-30', text: 'リリースしました', version: '1.0.0' }
     ],

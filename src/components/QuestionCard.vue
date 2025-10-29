@@ -5,7 +5,7 @@
   </div>
 
   <div v-if="q.type==='image'" class="px-4 sm:px-6 pb-2">
-    <img :src="q.image" :alt="q.alt || ''" class="w-full rounded-xl border object-cover"/>
+    <img :src="q.image" :alt="q.alt || ''" class="rounded-xl border object-cover"/>
   </div>
 
   <div class="grid gap-3 p-4 sm:p-6">
