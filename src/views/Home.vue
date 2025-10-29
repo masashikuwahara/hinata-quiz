@@ -6,19 +6,19 @@
 
     <div class="max-w-xl mx-auto">
       <div class="bg-white border border-primary/30 rounded-2xl p-6 text-center">
-        <!-- <p class="mt-2 text-gray-600">文章＆画像の4択クイズを10問。おひさまなら答えられるはず？</p> -->
-        <p>今しばらくお待ちください</p>
-        <!-- <RouterLink
+        <p class="mt-2 text-gray-600">文章＆画像の4択クイズを10問。おひさまなら答えられるはず？</p>
+        <!-- <p>今しばらくお待ちください</p> -->
+        <RouterLink
         to="/quiz"
         class="inline-flex items-center justify-center mt-6 px-6 py-3 rounded-xl text-white font-semibold"
         :style="{ background: primary }"
         @click="handleStart"
         >
       はじめる
-      </RouterLink> -->
+      </RouterLink>
       </div>
     </div>
-    <!-- <div class="max-w-xl mx-auto">
+    <div class="max-w-xl mx-auto">
       <div class="bg-white border border-primary/30 rounded-2xl p-5 text-center">
         <h2 class="font-semibold">更新履歴</h2>
 
@@ -41,7 +41,7 @@
           </li>
         </ul>
       </div>
-    </div> -->
+    </div>
   </section>
 </template>
 
