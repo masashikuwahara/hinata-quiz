@@ -151,4 +151,11 @@ export const questions = [
     options: ['真剣に取り組んでいるね', '急に家に行っても入れてくれるよね', '「やっほっす～」定着したね', '部屋キレイだね'],
     correctIndex: 2
   },
+  {
+    id: 21,
+    type: 'text',
+    question: '大野愛実がモデルを務めることになった雑誌は次のうちどれ？',
+    options: ['セブンティーン', 'CanCam', 'ViVi', 'Non-no'],
+    correctIndex: 1
+  },
 ]
